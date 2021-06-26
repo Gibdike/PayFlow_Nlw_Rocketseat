@@ -7,7 +7,6 @@ void main() {
 }
 
 class AppFirebase extends StatefulWidget {
-  // This widget is the root of your application.
   @override
   _AppFirebaseState createState() => _AppFirebaseState();
 }
@@ -24,7 +23,7 @@ class _AppFirebaseState extends State<AppFirebase> {
             return Material(
               child: Center(
                 child: Text(
-                  "Não foi possivel inicializar o Firebase",
+                  "Não foi possível inicializar o Firebase",
                   textDirection: TextDirection.ltr,
                 ),
               ),
