@@ -45,8 +45,9 @@ class BarcodeScannerController {
 
       if (barcode != null && status.barcode.isEmpty) {
         status = BarcodeScannerStatus.barcode(barcode);
-        cameraController!.dispose();
-        await barcodeScanner.close();
+        if (status.cameraController != null) cameraController!.dispose();
+      } else {
+        getAvailableCameras();
       }
 
       return;
@@ -69,8 +70,9 @@ class BarcodeScannerController {
   }
 
   void listenCamera() {
-    if (cameraController!.value.isStreamingImages == false)
-      cameraController!.startImageStream((cameraImage) async {
+    if (status.cameraController !=
+        null) if (status.cameraController!.value.isStreamingImages == false)
+      status.cameraController!.startImageStream((cameraImage) async {
         try {
           final WriteBuffer allBytes = WriteBuffer();
           for (Plane plane in cameraImage.planes) {
