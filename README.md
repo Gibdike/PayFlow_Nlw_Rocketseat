@@ -1,12 +1,5 @@
 <p align="center">
-  <img alt="PayFlow" src=".github/payflow-logo.png" width="200px">
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/github/stars/rocketseat-education/nlw-06-flutter?label=stars&message=MIT&color=000000&labelColor=8257e5" alt="Stars">
-  <img src="https://img.shields.io/github/forks/rocketseat-education/nlw-06-flutter?label=forks&message=MIT&color=000000&labelColor=8257e5" alt="Forks">     
-  <img  src="https://img.shields.io/static/v1?label=license&message=MIT&color=000000&labelColor=8257e5" alt="License">
-
+  <img alt="PayFlow" src="https://github.com/rocketseat-education/nlw-06-flutter/raw/main/.github/payflow-logo.png" width="200px">
 </p>
 
 <h2 align="center">Tópicos 📋</h2>
@@ -34,7 +27,7 @@
 <h2 align="center">Layout 🎨</h2>
 
    <p align="center">
-      <img alt="PayFlow" title="PayFlow" src=".github/capa.png" />
+      <img alt="PayFlow" title="PayFlow" src="https://github.com/rocketseat-education/nlw-06-flutter/raw/main/.github/payflow-logo.png" />
    </p>
 
    <p align="center">
@@ -75,5 +68,5 @@
 ---
 
    <p align="center">
-      <img alt="NLW" title="PayFlow" src=".github/nlw.png" />
+      <img alt="NLW" title="PayFlow" src="https://github.com/rocketseat-education/nlw-06-flutter/raw/main/.github/nlw.png" />
    </p>
